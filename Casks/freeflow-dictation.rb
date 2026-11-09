@@ -1,6 +1,6 @@
 cask "freeflow-dictation" do
-  version "1.7.3"
-  sha256 "3180f8b7ddebecf0b9e9f6217033619a6cb65ed80c0991a6dcb7ecc704b0a2b6"
+  version "1.7.4"
+  sha256 "7d2cb56648f5561dc90625d6d13d3af037d7afd7cd6da8de57d94575aaaba2cf"
 
   url "https://dl.freeflow.audio/FreeFlow-#{version}.dmg"
   name "FreeFlow Dictation"
@@ -16,7 +16,7 @@ cask "freeflow-dictation" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "FreeFlow.app"
 
