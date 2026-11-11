@@ -1,6 +1,6 @@
 cask "freeflow-dictation" do
-  version "1.7.4"
-  sha256 "7d2cb56648f5561dc90625d6d13d3af037d7afd7cd6da8de57d94575aaaba2cf"
+  version "1.7.5"
+  sha256 "419d68398bc9d4a4b7935ee669e9b9e13cf5a8c5853d4218c1f7deb1b6256cb7"
 
   url "https://dl.freeflow.audio/FreeFlow-#{version}.dmg"
   name "FreeFlow Dictation"
